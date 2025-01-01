@@ -1,0 +1,13 @@
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mup_ellipsis {
+  display: -webkit-box;
+  -webkit-box-direction: vertical;
+  -webkit-box-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
